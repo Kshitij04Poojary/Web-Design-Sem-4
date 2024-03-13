@@ -1,0 +1,139 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image: linear-gradient(#7086d7,#df88e2);
+}
+html{
+    scroll-behavior:smooth;
+}
+header {
+    background-color: #340c6c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav {
+    background-color:  #f5f5f5; 
+    padding: 10px;
+    text-align: center;
+    border-width: 10px;
+    border-color: #333;
+}
+nav a {
+    text-decoration: none;
+    color: #333; 
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+nav a:hover {
+    background-color: #ddd; 
+    color: #555; 
+}
+.nav-list{
+    padding:10px;
+    padding-left:20px;
+    padding-right: 20px;
+    border-radius:20px;
+    font-size:18px;
+    font-weight:700;
+    
+    font-family:Arial, Helvetica, sans-serif;
+}
+.image{
+    padding-left:120px;
+}
+#description{
+    font-size: 20px;
+    border-color: black;
+    border-width: 10px;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 50px;
+    margin-right: 50px;
+    border-right: 50px;
+}
+.nameNimage{
+    padding-top: 15px;
+    padding-left: 56px;
+    display: flex;
+}
+#dropdown{
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+#drop1{
+    padding-top:20px;
+    padding-left:55px;
+    font-size:18px;
+    padding-bottom: 10px;
+}
+.rating{
+    height: 40px;
+    padding-left: 10px;
+}
+#code{
+    font-size:18px;
+    padding-left: 55px;
+}
+#Features{
+    font-size:18px;
+    padding-left: 30px;
+}
+#Specifications{
+    font-size:18px;
+    padding-left: 30px;
+}
+#About{
+    font-size:18px;
+    padding-left: 30px;
+}
+#Contact{
+    font-size:18px;
+    padding-left: 30px;
+}
+#Contact p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 18px;
+}
+footer{   
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;    
+}
+.buy .button {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 2em;
+    color: #f2f2f2;
+    background-color: orangered;
+    text-align: center;
+}
+.buy h2{
+    margin-top: 5px;
+}
