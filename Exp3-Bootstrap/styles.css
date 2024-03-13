@@ -1,0 +1,14 @@
+.my_container{
+    display:flex;
+    justify-content: space-around;
+}
+.my_container img{
+    height: 30vh;
+    width:15vw;
+}
+.head{
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
